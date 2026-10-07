@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+
+# Downloaded data, model weights, checkpoints, run outputs (never committed)
+data/raw/
+artifacts/
+runs/
+*.pt
+*.safetensors
+*.gguf
+*.bin
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
